@@ -1,0 +1,311 @@
+  /*********************************** TODO APP CSS CODES BELOW ******************************************/
+
+  /* ------------ youtube.com/CodeExplained ------------ */
+body{
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0,0,0,0.1);
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ container ------------ */
+.container{
+  padding:10px;
+  width:380px;
+  margin:0 auto;
+}
+
+/* ------------ header ------------ */
+.header{
+  width: 380px;
+  height:200px;
+  background-image: url('/img/bg2.jpg');
+  background-size: 100% 200%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+.clear{
+  width : 30px;
+  height: 30px;
+  position: absolute;
+  right:20px;
+  top: 20px;
+}
+.clear i{
+  font-size: 30px;
+  color: #FFF;
+}
+.clear i:hover{
+  cursor: pointer;
+  text-shadow: 1px 3px 5px #000;
+  transform: rotate(45deg);
+}
+#date{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #FFF;
+  font-size: 25px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+/* ------------ content ------------ */
+.content{
+  width:380px;
+  height: 350px;
+  max-height:350px;
+  background-color: #FFF;
+  overflow: auto;
+}
+.content::-webkit-scrollbar { 
+  display: none; 
+}
+.content ul{
+  padding:0;
+  margin:0;
+}
+.item{
+  width:380px;
+  height: 45px;
+  min-height: 45px;
+  position: relative;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item i.co{
+  position: absolute;
+  font-size: 25px;
+  padding-left:5px;
+  left:15px;
+  top:10px;
+}
+.item i.co:hover{
+  cursor: pointer;
+}
+.fa-check-circle{
+  color:#6eb200;
+}
+.item p.text{
+  position: absolute;
+  padding:0;
+  margin:0;
+  font-size: 20px;
+  left:50px;
+  top:5px;
+  background-color: #FFF;
+  max-width:285px;
+}
+.lineThrough{
+  text-decoration: line-through;
+  color : #ccc;
+}
+.item i.de{
+  position: absolute;
+  font-size: 25px;
+  right:15px;
+  top:10px;
+}
+.item i.de:hover{
+  color:#af0000;
+  cursor: pointer;
+}
+/* ------------ add item ------------ */
+.add-to-do{
+  position: relative;
+  width: 360px;
+  height:40px;
+  background-color: #FFF;
+  padding: 10px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do i{
+  position: absolute;
+  font-size: 40px;
+  color: #4162f6;
+}
+
+.add-to-do input{
+  position: absolute;
+  left: 50px;
+  height: 35px;
+  width: 310px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  padding-left:10px;
+}
+.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #4162f6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-to-do input::-moz-placeholder { /* Firefox 19+ */
+  color: #4162f6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-to-do input:-ms-input-placeholder { /* IE 10+ */
+  color: #4162f6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+.add-to-do input:-moz-placeholder { /* Firefox 18- */
+  color: #4162f6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+}
+
+
+  /* *****************************WEATHER APP CSS CODES *************************************** */
+
+  *{
+    font-family: "Rimouski";
+}
+
+body{
+    background-color: #293251;
+}
+
+.container{
+    width: 300px;    
+    background-color: #FFF;
+    
+    display: block;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    padding-bottom : 50px;
+}
+
+.app-title{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px 10px 0 0;
+}
+
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #293251;
+}
+
+.notification{
+    background-color: #f8d7da;
+    display: none;
+}
+
+.notification p{
+    color: #721c24;
+    font-size: 1.2em;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.weather-container{
+    width: 400px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: #F4F9FF;
+}
+
+ .weather-icon{
+    width: 300px;
+    height: 128px; 
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 130px;
+}
+
+.temperature-value{
+    width: 300px;
+    height:60px;
+}
+
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.temperature-value span{
+    color: #293251;
+    font-size: 0.5em;
+}
+
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.location p{
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+
+
+
+  /*********************************** CSS CODES BELOW ******************************************/
+
+  img {
+    height: 350px;
+  }
+
+  .welcome-gradient {
+    background: rgb(6,36,0);
+    background: linear-gradient(90deg, rgba(6,36,0,0.4990371148459384) 0%, rgba(0,245,255,1) 48%, rgba(9,92,121,0.7175245098039216) 70%);
+    text-align: center;
+  }
+
+    .welcome-text {
+      text-align: center;
+      text-justify: inter-word;
+      letter-spacing: 3px;
+      line-height: 50px;
+      padding: 40px;
+      font-family: 'Titillium Web', sans-serif;
+    }
+
+  .company-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer {
+    width: 1350px;
+    height: 250px;
+    margin-right: 0px;
+    padding: 100px;
+    background-color: #084C61;
+}
+
+.weather-box {
+  -webkit-box-shadow: 2px 4px 29px 29px rgba(209,202,209,0.3);
+-moz-box-shadow: 2px 4px 29px 29px rgba(209,202,209,0.3);
+box-shadow: 2px 4px 29px 29px rgba(209,202,209,0.3);
+}
+
+.icons {
+  padding-right: 0.9375rem;
+}
